@@ -1,0 +1,24 @@
+body {
+    background-color: rgb(51, 48, 48);
+}
+.car {
+  fill: #e6e6fa;
+  stroke: black;
+
+}
+#car {
+  position: relative;
+  animation: move 5s linear;
+}
+
+@keyframes move {
+  0% {
+    left: 0;
+  }
+  100% {
+    left: 500px;
+  }
+}
+.road {
+    border-bottom: white dotted 3px;
+}

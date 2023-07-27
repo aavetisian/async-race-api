@@ -1,0 +1,14 @@
+{
+  "name": "async-race-api",
+  "version": "1.0.0",
+  "description": "Fun with promises",
+  "main": "main.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "mikhama",
+  "license": "MIT",
+  "dependencies": {
+    "serve": "^14.2.0"
+  }
+}
